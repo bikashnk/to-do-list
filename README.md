@@ -2,8 +2,8 @@
 To Do List App
 
 #Steps To Run The Solutions
-Clone/Download the solution
-Install Node
-Open the solution using git bash or any other console
-Run npm install to download node modules
-Run npm start to run the application
+1. Clone/Download the solution
+2. Install Node
+3. Open the solution using git bash or any other console
+4. Run npm install to download node modules
+5. Run npm start to run the application
