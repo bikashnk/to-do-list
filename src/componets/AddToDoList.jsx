@@ -21,7 +21,7 @@ const AddToDoList = props => {
             alt="Plus"
             onClick= {() => {setAddBox((renderAddBox) => !renderAddBox)}}
           />
-          <span style={{ float: 'left', marginLeft: '2%', marginTop: '1.3em' }}>Add a to-do</span>
+          <span style={{ float: 'left', marginLeft: '2%', marginTop: '1.3em', color:'blue' }}>Add a to-do</span>
         </div>
           : <InlineSave addTodo={toggleScreen} />
       }
