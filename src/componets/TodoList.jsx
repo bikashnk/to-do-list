@@ -15,7 +15,7 @@ const TodoList = () => {
           <div className="col-lg-4">
             <UserProfile />
           </div>
-          <div className="col-lg-8">
+          <div className="col-lg-8" style={{marginBottom: '1em'}}>
             <ListDetails />
           </div>
         </div>

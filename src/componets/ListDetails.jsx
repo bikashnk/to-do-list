@@ -5,7 +5,7 @@ import AddToDoList from './AddToDoList.jsx';
 import {contactList} from '../constant.jsx';
 import background from '../images/background.jpg';
 
-const ListDetails = props => {
+const ListDetails = () => {
   const [todos, setTodos] = useState(contactList);
 
   const completeTodo = index => {

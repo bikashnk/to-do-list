@@ -11,11 +11,12 @@ const RenderTask = ({ todo, index, removeTodo, completeTodo }) => {
       >
         <input 
           className="todo-checkbox" 
+          readOnly
           type="checkbox" 
           checked={todo.isCompleted}
           onClick={() => completeTodo(index)}
           />
-        <span style={{marginLeft:"1em"}}>{todo.taskName}</span>
+        <span className='task-span' title={todo.taskName}>{todo.taskName}</span>
         <div className="trash-block">
           <img
           className="trash-icon"

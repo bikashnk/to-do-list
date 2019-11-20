@@ -106,6 +106,14 @@
   border-width: 0px 1px 1px 1px;
 }
 
+.task-span{
+  margin-left: 1em;
+  overflow: hidden;
+  overflow-wrap: normal;
+  text-overflow: ellipsis;
+  margin-left:"1em"
+}
+
 /* .details-list .todo:first-child {
   padding-top: 1em;
 } */

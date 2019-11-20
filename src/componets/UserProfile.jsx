@@ -2,7 +2,7 @@ import React, { Fragment } from 'react';
 import HamburgerIcon from '../common/HamburgerIcon.jsx';
 import happyman from '../images/happyman.jpg';
 
-const UserProfile = props => {
+const UserProfile = () => {
   return (
     <Fragment>
       <div className="image-txt-container">
